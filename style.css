@@ -1,0 +1,187 @@
+body{
+    margin: 10px;
+    background-color: #EEEEEE;
+}
+
+.container{
+    width: 768px;
+    background-color: #fff;
+    /* border-radius: 10px; */
+    padding: 10px;
+}
+/* Header Part Start  */
+#header .left{
+    height: 150px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    padding: 5px 5px;
+    position: relative;
+}
+#header .left .bac_grnd{
+    position: absolute;
+    left: 22%;
+    top: 20%;
+}
+#header .left .bac_grnd .log{
+    height: 104px;
+    width: 104px;
+}
+#header .left .img{
+    width: 100%;
+}
+
+#header .right{
+    
+}
+#header .right .r_d1{
+    height: 58px;
+    background-color: #007814;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+#header .right .r_d1 .r_d1_left_h{
+    padding-top: 25px;
+    padding-left: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #95E17D;
+}
+#header .right .r_d1 .r_d1_right_img{
+    height: 100%;
+}
+#header .right .r_d1 .r_d1_right_img img{
+    height: 100%;
+}
+#header .right .r_d2{
+    height: 58px;
+    background-color: #007814;
+    margin-bottom: 1px;
+}
+#header .right .r_d2 h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 5px 5px;
+}
+#header .right .r_d3{
+    height: 30px;
+    background-image: linear-gradient(#9cdb9f, #66B061, #9cdb9f);
+}
+#header .right .r_d3 p{
+    text-align-last: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+/* Header Part Close  */
+/* Form Part Start */
+.form_width{
+    padding: 30px 40px;
+    width: 500px;
+    border: 2px solid #C4C4C4;
+    margin: 0 auto;
+}
+form h3{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #007814;
+}
+.data_set{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+   
+}
+.data_set label{
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.data_set input{
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 2px solid #C4C4C4;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+.data_set input:focus{
+    border: 2px solid green;
+}
+.button_set{
+    text-align: right;
+    padding: 10px 0px;
+}
+.button_set button,
+.button_set input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #007814;
+    color: #fff;
+    cursor: pointer;
+}
+.result{
+    text-align: center;
+    padding: 10px 0px;
+    
+}
+.result h1{
+    font-size: 35px;
+    color: #007814;
+    padding: 10px 0px;
+}
+.result #gpa{
+    font-size: 20px;
+}
+.Grade_Sheet{
+    padding: 5px 0px;
+    text-align: center;
+}
+.Grade_Sheet #grade_sheet_h1{
+    font-size: 30px;
+    color: #007814;
+    padding: 10px 0px;
+}
+.Grade_Sheet #grade_sheet_ul{
+    padding: 10px 0px;
+}
+.Grade_Sheet li{
+    padding: 10px 0px;
+    word-spacing: 50px;
+    letter-spacing: 3px;
+}
+/* Form Part Close */
+/* Footer part start  */
+
+
+footer .row{
+    background-color: #EEEEEE;
+}
+footer .linear{
+    border-top: 5px solid #86C775;
+}
+footer .left p{
+    padding: 22px;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 10px;
+}
+
+footer .right p{
+    padding: 22px;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 10px;
+    text-align: right;
+}
+footer .right img{
+    padding: 10px;
+}
+/* Footer part Close */

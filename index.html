@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GPA Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="icon.png">
+    
+        <meta charset="UTF-8">
+        <meta name="robots" content="index, follow">
+    
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="5000000">
+        <!-- <meta http-equiv="refresh" content="5"> -->
+    
+        <meta name="keywords" content="class one, html learn">
+        <meta name="description" content="you learn every things about html">
+        <meta name="author" content="mr abdul kuddus">
+        <meta name="copyrigth" content="www.mysite.com">
+        <meta name="revisit" content="5 days">
+    
+        <meta property="og:title" content="html learn" />
+        <meta property="og:site_name" content="adfas" />
+        <meta property="og:description" content="" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://" />
+        <meta property="og:image" content="http://" />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="315" />
+    
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="http://">
+        <meta name="twitter:card" content="summary_large_image">
+        <link rel="stylesheet" href="default.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- git commands -->
+
+    <!-- 
+        git init 
+        git config --global user.name 'hasnat-shohag'
+        git config --global user.email 'hasnat.ru.ice19@gmail.com'
+        git add .
+        git commit -m 'project init'
+        git branch --all
+        git push -u origin master
+        git push -f origin master
+        git checkout gh-pages
+        git push -u origin gh-pages
+        git remote add origin https://github.com/hasnat-shohag/analog_calculaor.git
+        
+    
+    -->
+
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 left">
+                    <div class="bac_grnd">
+                        <div class="logo">
+                            <img src="./image/bd_logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 right">
+                    <div class="r_d1">
+                        <div class="r_d1_left_h">
+                            <h1>Ministry of Education</h1>
+                        </div>
+                        <div class="r_d1_right_img">
+                            <img src="./image/banner_flag.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="r_d2">
+                        <h1>
+                            Intermediate and Secondary Education Boards <br>
+                            Bangladesh
+                           
+                        </h1>
+                    </div>
+                    <div class="r_d3">
+                        <p>Official Website of Education Board</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="container">
+            <div class="form_width">
+                <form action="#" name="data" id="myForm">
+                    <h3>Give Your Valid Exam Marks</h3>
+                    <div class="data_set">
+                        <label for="bangla">Bangla</label>
+                        <input class="u_inp" maxlength="3" name="bangla" id="bangla" type="number" >
+                    </div>
+                    <div class="data_set">
+                        <label for="english">English</label>
+                        <input class="u_inp" maxlength="3" name="english" id="english" type="number" >
+                    </div>
+                    <div class="data_set">
+                        <label for="math">Mathematics</label>
+                        <input class="u_inp" maxlength="3" name="math" id="math" type="number" >
+                    </div>
+                    <div class="data_set">
+                        <label for="science">Science</label>
+                        <input class="u_inp" maxlength="3" name="science" id="science" type="number" >
+                    </div>
+                    <div class="data_set">
+                        <label for="bgs">BGS</label>
+                        <input class="u_inp" maxlength="3" name="bgs" id="bgs" type="number" >
+                    </div>
+                    <div class="data_set">
+                        <label for="religious">Religious</label>
+                        <input class="u_inp" maxlength="3" name="religious" id="religious" type="number" >
+                    </div>
+
+                    <div class="button_set">
+                        <button type="submit" onclick="gpaCalculate()">SUBMIT</button>
+                        <input type="button" onclick="myFunction()" value="RESET">
+                    </div>
+                </form>
+                <div class="result">
+                   <h1 id="result_h1"></h1>
+                   <h2 id="gpa">
+
+                   </h2>
+                </div>
+                <div class="Grade_Sheet">
+                    <h1 id="grade_sheet_h1">
+
+                    </h1>
+                    <ul id="grade_sheet_ul">
+
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+        
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="linear">
+                
+            </div>
+            <div class="row">
+                    <div class="col-6 left">
+                        <p>
+                            &copy;2005-2020 Ministry of Education, All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col-6 right">
+                        <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-4">
+                                <p>
+                                    Powered by
+                                </p>
+                            </div>
+                            <div class="col-4">
+                                <img src="./image/tbl_logo.png" alt="">
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
